@@ -9,6 +9,8 @@ function addItem(arr, item){
     }
 
 }
+let apple;
+
 addItem(basket,apple);
 
 function listItems(arr){ 
@@ -27,7 +29,7 @@ console.log(arr[4]) ;
     arr.shift[4] ;
  }
 }
-maxItems = 5; 
+let maxItems = 5; 
 function isFull(arr){
 if (maxItems<= arr.length){
     return 'true' ;
