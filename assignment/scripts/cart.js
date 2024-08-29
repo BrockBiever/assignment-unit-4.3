@@ -1,17 +1,43 @@
-console.log('***** Cart Functions *****');
-// Make sure to test all functions here in the JS file!
-// We want to see how you are testing your code!!!
+let basket = []
+function addItem(arr, item){
+   isFull(arr)
+   if('false'){
+    arr.unshift(item);
+    return true} ;
+    if('true'){
+        return false ;
+    }
+
+}
+let apple;
+
+addItem(basket,apple);
+
+function listItems(arr){ 
+    basket.forEach(item => {
+        console.log(item)
+    })
+    } 
+
+ 
+function empty(arr){
+arr.length = 0 
+console.log(arr)
+ }
 
 
+let maxItems = 5; 
+function isFull(arr){
+if (maxItems<= arr.length){
+    return 'true' ;
 
+} ;
+if (maxItems> arr.length){
+    return 'false' ;
 
+};
 
-
-
-
-
-
-
+}
 // DO NOT MODIFY
 // Used for automated testing
 try {
